@@ -1,0 +1,18 @@
+/* Ipad */
+
+@media(min-width: 740px) and (max-width:1023) {}
+
+
+/* Mobile */
+
+@media(max-width: 740px) {
+    #nav>li {
+        display: block;
+    }
+    nav li {
+        position: relative;
+    }
+    #header .search-btn {
+        display: none;
+    }
+}
